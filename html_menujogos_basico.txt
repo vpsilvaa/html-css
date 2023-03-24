@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style2.css">
+        <script src="./script.js" defer></script>
+        <title>Escolha do jogo</title>
+    </head>
+    <body>
+        <div id="login">
+            <form class="forma">
+                <div>
+                    <h2>Escolha do jogo</h2>
+                </div>
+                <div class="conteudo">
+                    <div class="conteudo2">
+                        <label for="jogo">Digite o nome do jogo</label>
+                        <input type="text" id="jogo" autocomplete="off">
+                    </div>
+                    <div class="conteudo2">
+                        <label for="quantidade">Digite a quantidade do jogo</label>
+                        <input type="text" id="quantidade" autocomplete="off">
+                    </div>
+                    <div class="conteudo2">
+                        <label for="console">Digite o console</label>
+                        <input type="text" id="console" autocomplete="off">
+                    </div>
+                    <div class="conteudo2">
+                        <label for="pagamento">Digite a forma de pagamento</label>
+                        <input type="text" id="pagamento" autocomplete="off">
+                    </div>
+                    <div>
+                        <h3>Jogos Disponíveis:</h3>
+                        <ol type="I">
+                            <li >God of War</li>
+                            <li>CS GO</li>  
+                            <li>Fortnite</li>
+                            <li>The Witcher 3</li>
+                            <li>Valorant</li>
+                            <li>Free Fire</li>
+                            <li>GTA 5</li>
+                            </ol>
+                    </div>
+                </div>
+                <div class="conteudo3">
+                    <button type="submit" class="submit">Confirmar</button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

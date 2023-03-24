@@ -1,0 +1,64 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #ffffff;
+
+}
+
+#login {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.forma {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 80px;
+    border-radius: 90px;
+    width:600px;
+}
+
+.conteudo label {
+    color: #fff;
+    font-size: 12px;
+    opacity: 0.8;
+}
+
+.conteudo2 {
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+}
+
+.conteudo2 input {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.conteudo3 {
+    display: inline;
+    flex-direction: column;
+}
+input{
+    border-radius: 30px;
+}
+.conteudo3 .submit{
+    width: 100%;
+    height: 40px;
+    background-color: #000000;
+    border:none;
+    color:#e1e1e1;
+    border-radius: 30px;
+    margin: 10px 0;
+}
+.conteudo4 {
+    display: flex;
+    list-style-type: none;
+    padding-right: 14px;
+    margin-left: 100px;
+}
