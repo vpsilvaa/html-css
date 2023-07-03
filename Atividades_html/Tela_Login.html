@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Login IndustryCare</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-image: url('fundo.jfif');
+                font-family:Verdana;
+            }
+            form, div{
+                width: auto;
+                color: rgb(255, 255, 255);
+            }
+            form{
+                margin-top: 20px;
+            }
+            div{
+                background-color:rgba(167, 4, 67, 0.918);
+                border: 3px solid rgb(255, 255, 255);
+                
+                text-align: center;
+            }
+            input[id="id"]:hover{
+                background-color: rgb(75, 72, 72);
+            }
+            input[id="senha"]:hover{
+                background-color: darkred;
+            }
+            input[type="submit"]:hover{
+                background-color: darksalmon;
+            }
+            input[type="submit"]:active{
+                background-color: rgb(170, 12, 99);
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1>Login</h1>
+            <p>IndustryCare</p>
+        </div>
+        <form method="POST">
+            <fieldset>
+                <legend>Dados:</legend>
+                <label for="id">Digite seu ID:</label><br>
+                <input placeholder="Nome" type="text" id="id" name="id" style="border-width: 2px;" autocomplete="on"><br><br>
+                <label for="senha">Digite sua senha:</label><br>
+                <input placeholder="Senha" type="password" id="senha" name="senha" style="border-width: 2px;"><br><br>
+                <input type="submit"><br><br>
+                <input type="checkbox">Lembre de mim
+            </fieldset>
+        </form>
+    </body>
+</html>

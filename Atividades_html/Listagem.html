@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <title>Listagem</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                color: white;
+                background-image: url('fundo.jfif');
+                text-align: center;
+                font-family: Verdana;
+            }
+            table, th, td{
+                width: 50%;
+                text-align: center;
+                border: 1px solid white;
+                border-collapse: collapse;
+            }
+            h1{
+                background-color:rgba(167, 4, 67, 0.918);
+                color: rgb(255, 255, 255);
+                border: 3px solid rgb(255, 255, 255);
+            }
+            th{
+                background-color: rgba(112, 112, 112, 0.301);
+            }
+            td{
+                background-color: rgba(141, 138, 140, 0.658);;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tabela:</h1>
+        <form method="POST">
+            <table>
+                <caption>Tabela de dados</caption>
+                <tr>
+                    <th><label for="nome">Nome</label></th>
+                    <th><label for="oficio">Ofício</label></th>
+                    <th><label for="dependentes">Dependentes</label></th>
+                    <th><label for="foto">Foto</label></th>
+                    <th><label for="inserir">Inserir</label></th>
+                </tr>
+                <tr >
+                    <td><input type="text" name="nome" id="nome"></td>
+                    <td><input type="text" name="oficio" id="oficio"></td>
+                    <td><input type="checkbox" name="dependentes" id="dependentes"></td>
+                    <td><input type="image" name="foto" id="foto"></td>
+                    <td><input type="button" name="inserir" id="inserir"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

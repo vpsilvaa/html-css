@@ -1,0 +1,42 @@
+body{
+    background-color: lightblue;
+}
+h1, p{
+    text-align: center;
+    color:black;
+    font-size: 60px;
+    padding-top: 10px;
+    font-variant: small-caps;
+}
+p{
+    font-size: 20px;
+    padding-top: 1px;
+}
+form{
+    background-color: rgb(1, 1, 36);
+    color:wheat;
+    text-shadow: 1px 1px 10px red;
+    border-radius: 10px;
+}
+input{
+    border-style: inset;
+    font-weight: bold;
+}
+img[src="industry_care.png"]{
+    position: relative;
+    width: 400px;
+    height: 200px;
+    top: 50%;
+}
+input[type="submit"]:hover{
+    background-color: blue;
+}
+input[type="submit"]:active{
+    background-color: green;
+}
+input[placeholder*="..."]:focus{
+    background-color: lightblue;
+}
+input[placeholder*="..."]:hover{
+    cursor:wait;
+}
